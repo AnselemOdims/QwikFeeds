@@ -4,7 +4,7 @@ import { theme } from '../styles/theme';
 import { AuthProvider } from '../lib/auth';
 import '../styles/globals.css';
 
-const extendedTheme = extendTheme({ theme })
+const extendedTheme = extendTheme(theme)
 
 function MyApp({ Component, pageProps }) {
   return (

@@ -1,8 +1,8 @@
+
 export const theme = {
-    fontSize: {
-        normal: '500',
-        semiBold: '600',
-        bold: '700',
-        extraBold: '800'
+    colors: {
+        brand: {
+            100: "#96695e"
+        }
     }
-}
+};
